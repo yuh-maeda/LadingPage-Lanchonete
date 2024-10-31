@@ -6,3 +6,27 @@
     position: sticky;
     z-index: 3;
 }
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    color: var(--color-primary-6);
+    font-size: 24px;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #1d1d1dad;
+    font-weight: 600;
+}
