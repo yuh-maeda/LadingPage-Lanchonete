@@ -46,3 +46,24 @@
     top: -10px;
     border-radius: 0px 37.5px 0px 42.5px;
 }
+
+.card-heart :hover{
+    color: rgb(234, 19, 19);
+    cursor: pointer;
+}
+.card-title{
+    font-size: 1.6rem;
+}
+.card-descricao{
+    font-size: 0.8rem;
+    text-align: justify;
+}
+.card-rate i{
+    color: var(--color-primary-6);
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+ 
