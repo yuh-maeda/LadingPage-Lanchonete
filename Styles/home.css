@@ -68,3 +68,43 @@
     right: 0;
     z-index: 1;
 }
+
+@media screen and (max-width:1770px ) {
+    .shape{
+        display: none;
+    }
+
+    #home{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner{
+        width: 100%;
+    }
+
+    .banner img{
+        height: 15rem;
+    }
+
+    .cta-buttons{
+        flex-direction: column;
+    }
+
+    .cta{
+        width: 90%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .descricao{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
